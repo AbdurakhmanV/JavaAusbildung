@@ -7,7 +7,7 @@ public class E01AboutMe {
         String birthday = "29.04.1992";
         double averageGrade = 2.3;
         boolean married = false;
-        System.out.println();
+
         System.out.println("""
                 """ +
                 "firstname:        " + firstName +
