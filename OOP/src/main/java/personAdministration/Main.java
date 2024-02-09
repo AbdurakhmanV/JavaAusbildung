@@ -27,7 +27,7 @@ public class Main {
                 if (chooseProgram == 1) {
                     createdPerson = runPersonAdministration.createPerson();
                     if (createdPerson != null) {
-                        System.out.println("\n" + createdPerson.toString() + "\n");
+                        createdPerson.toString();
                         showAddToListFunctions();
                         addPersonToList();
                     }
@@ -71,6 +71,7 @@ public class Main {
     }
 
     public static void showAddToListFunctions() {
+        System.out.println("Zu welche Liste soll die Person hinzugefueght werden?");
         do {
             System.out.println("""
                     Zur Liste hinzufügen
@@ -107,7 +108,6 @@ public class Main {
             chooseProgram = -1;
         }
     }
-
 
     public static List<Person> addToListPa(List<Person> list, Person person) {
         list.add(person);
