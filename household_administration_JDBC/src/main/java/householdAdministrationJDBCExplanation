@@ -1,0 +1,17 @@
+
+household-administration JDBC explanation
+
+This JDBC project has the purpose to administrate households.
+
+Every household has an address assign.
+Is a household deleted, the address which is assign to the household should be deleted as well.
+The ""ADDRESS" table posseses the foreign key "HOUSEHOLD_ID" which is declared "CASCADE ON DELETE".
+Each household can have one or multiple persons assigned to it, each person can have none, one or multiple pet.
+If a household is deleted, the persons and the pet which are assigned to those persons will be deleted as well.
+
+The hierarchy is the following:
+
+1. household
+ 1.1 Address
+  1.2 Person
+    1.2.1 Pet
