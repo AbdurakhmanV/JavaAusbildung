@@ -87,3 +87,4 @@ public class Attack {
         return String.format("%-20s%d\n%-20s%s\n%-20s%s\n%-20s%s\n%-20s%s\n%-20s%d\n%-20s%d\n%-20s%d", "ID:", this.id, "Name:", this.name, "Effekt:", this.effect, "Typ:", this.type, "Art:", this.kind, "Power:", this.power, "Praezision", this.accuracy, "PP:", this.pp);
     }
 }
+//
