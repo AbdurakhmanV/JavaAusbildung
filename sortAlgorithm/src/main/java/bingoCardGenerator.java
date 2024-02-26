@@ -106,12 +106,12 @@ public class bingoCardGenerator {
     //bubble-sort-algorithm array
     public static int[] bubbleSortArray(int... arr) {
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[i]) {
                     int a = arr[j];
-                    arr[j + 1] = arr[j];
-                    arr[j] = a;
+                    arr[j] = arr[i];
+                    arr[i] = a;
                 }
             }
         }
@@ -151,6 +151,24 @@ public class bingoCardGenerator {
             sortedList.set(i, replacement);
         }
         return sortedList;
+    }
+
+
+    public static int[] selectionSortList(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minValueAtIndex = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[minValueAtIndex]) {
+                    minValueAtIndex = j;
+                }
+            }
+            if (minValueAtIndex != i) {
+                int replacement = arr[minValueAtIndex];
+                arr[minValueAtIndex] = arr[i];
+                arr[i] = replacement;
+            }
+        }
+        return arr;
     }
 
 }
