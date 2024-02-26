@@ -1,4 +1,4 @@
-package domainLogicHouseholdAdministration;
+package domainLogic;
 
 public class Pet {
 
@@ -60,4 +60,9 @@ public class Pet {
     }
     //constructor end----------------------------------------------------------------------------------------------------------------------------------------
 
+
+    @Override
+    public String toString(){
+     return String.format("%-30s%-30s%-30s%-30s", petId, animalKind, petName, personId);
+    }
 }

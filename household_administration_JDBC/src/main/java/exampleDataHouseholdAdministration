@@ -1,5 +1,6 @@
 HOUSEHOLD table insert begin -----------------------------------------------------------------------------------------------------
 
+
 CB
 4020, Linz, Peter-Behrens-Platz, 4, 10
 
@@ -12,5 +13,80 @@ Magistrat Wien
 1010, Wien, Friedrich-Schmidt-latz, 1
 
 
+SportClub ASKOE
+4020, Linz, Elle, 5
+
+
+FightClub Tao
+4061, Pasching, Kauflandstrassse, 7
+
+
+PianoClub Leon
+4061, Pasching, Kauflandstrassse, 19
+
+
 HOUSEHOLD table insert end -----------------------------------------------------------------------------------------------------
 
+
+
+PERSON table insert begin -----------------------------------------------------------------------------------------------------
+
+Ab, Du, 29.08.1997, maennlich, 9
+
+
+Alex, Luther, 14.09.1988, maennlich, 9
+
+
+Lena, Gutberg, 14.09.1988, weiblich, 9
+
+
+
+Julius, Raab, 29.08.1997, maennlich, 44
+
+
+Martin, Mayer, 11.03.1995, maennlich, 46
+
+
+Max, Mustermann, 12.12.1974, maennlich, 47
+
+
+
+Nina, Mayer, 24.01.2001, weiblich, 47
+
+
+Hanna, March, 17.02.2012
+
+
+Anna, Hager, 03.07.1964
+
+
+Karl, Hagen, 17.04.1992
+
+PERSON table insert end -----------------------------------------------------------------------------------------------------
+
+
+
+PET table insert begin -----------------------------------------------------------------------------------------------------
+
+Hund, Jack, 1
+
+Hund, Rex, 1
+
+Hund, Hust, 1
+
+
+
+Hund, Wurst, 3
+
+Vogel, Kech, 3
+
+
+
+Schlange, Phyt, 2
+
+Schildkroete, Sam, 2
+
+Loewe, Lion, 2
+
+
+PET table insert end -----------------------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-package domainLogicHouseholdAdministration.exceptionManagerHouseholdAdministration;
+package domainLogic.exceptionManager;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -85,10 +85,10 @@ public class ExceptionsHouseholdAdministration {
     }
 
     public String[] controlAddress(String[] addressArray) throws Exception {
-        if (addressArray.length > 5 || addressArray.length < 4) {
+        if (addressArray.length > 7 || addressArray.length < 5) {
             throw new Exception("\ninvalid address format\nDas Format der Adresse wurde nicht befolgt.\n");
         }
-        if (addressArray.length == 5 && !addressArray[4].matches(".*\\d.*")) {
+        if ((addressArray.length == 5 ||  addressArray.length == 6) && !addressArray[4].matches(".*\\d.*")) {
             throw new NumberFormatException("\ninvalid address format\nDie Tuernummer darf nur eine Nummer sein.\n");
         }
         return addressArray;

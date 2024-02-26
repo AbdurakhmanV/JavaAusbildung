@@ -1,9 +1,7 @@
-package domainLogicHouseholdAdministration;
-import domainLogicHouseholdAdministration.exceptionManagerHouseholdAdministration.*;
+package domainLogic;
+import domainLogic.exceptionManager.*;
 
 import java.sql.Date;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Person {
 
@@ -15,8 +13,6 @@ public class Person {
     private Gender gender;
     private int householdId;
     //object attributes, instance variables end-------------------------------------------------------------------------------------------------------------------
-
-
 
     //helping variables and objects begin-----------------------------------------------------------------------------------------------------------------------
     private final ExceptionsHouseholdAdministration exceptionsHouseholdAdministrationManager = new ExceptionsHouseholdAdministration();

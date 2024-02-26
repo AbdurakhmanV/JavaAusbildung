@@ -1,14 +1,14 @@
-package databaseManagerHouseholdAdministration;
+package databaseManager;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class MySQLDatabaseConnection {
+public class DatabaseConnection {
 
 //    private static Connection mySQLDatabaseConnection;
 
-    public MySQLDatabaseConnection(){
+    public DatabaseConnection(){
 
     }
 

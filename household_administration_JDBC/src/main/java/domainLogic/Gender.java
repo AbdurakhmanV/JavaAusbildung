@@ -1,4 +1,4 @@
-package domainLogicHouseholdAdministration;
+package domainLogic;
 
 public enum Gender {
     MASKULINE ("maennlich"),

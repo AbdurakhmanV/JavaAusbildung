@@ -1,4 +1,4 @@
-package domainLogicHouseholdAdministration;
+package domainLogic;
 
 public class Address {
     //object attributes, instance variables begin---------------------------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ public class Address {
 
     @Override
     public String toString(){
-        return String.format("%-30d%-30s%-30s%-30s%-30s%-30d%", addressId, zipcode, city, street, houseNumber, doorNumber);
+        return String.format("%-30d%-30s%-30s%-30s%-30s%-30d%-30d", addressId, zipcode, city, street, houseNumber, doorNumber, householdId);
     }
 
 

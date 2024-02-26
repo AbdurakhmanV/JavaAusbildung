@@ -1,4 +1,4 @@
-package domainLogicHouseholdAdministration.exceptionManagerHouseholdAdministration;
+package domainLogic.exceptionManager;
 
 import java.util.Scanner;
 
